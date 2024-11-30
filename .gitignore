@@ -1,0 +1,13 @@
+*.log
+npm-debug.*
+*.scssc
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+.sass-cache
+.env
+.cache
+
+node_modules
+dist

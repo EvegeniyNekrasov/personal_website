@@ -1,0 +1,21 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "this is my personal web site",
+  "type": "module",
+  "main": "eleventy.config.js",
+  "auto": "Evgeniy Aleksandrovich Nekrasov",
+  "scripts": {
+    "start": "eleventy --serve --quiet"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.1",
+    "sass": "^1.81.0"
+  }
+}
