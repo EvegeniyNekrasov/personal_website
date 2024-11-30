@@ -1,12 +1,14 @@
 export default function (config) {
-    // TODO
+    config.setBrowserSyncConfig({
+        files: "./dist/css/**/*.css"
+    })
 
     return {
         markdownTemplateEngine: 'njk',
         dataTemplateEngine: 'njk',
         htmlTemplateEngine: 'njk',
         dir: {
-            input: 'src',
+            input: '_src',
             output: 'dist'
         }
     };
