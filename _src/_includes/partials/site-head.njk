@@ -1,0 +1,11 @@
+<header role="banner">
+    <nav>
+        <ul>
+            {% for item in navigation.items %}
+            <li>
+                <a href="{{item.url}}" {{helpers.getActiveLinkState(item.url, page.url) | safe}}>{{item.text}}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>

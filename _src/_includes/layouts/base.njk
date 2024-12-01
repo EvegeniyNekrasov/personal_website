@@ -9,10 +9,13 @@
 </head>
 
 <body>
-    <header>
-        <p>header content</p>
-    </header>
-    {{content | safe}}
+    {% include "partials/site-head.njk" %}
+    <main>
+        {% for item in collections.posts %}
+        <p>{{ item.data.title }}</p>
+        {% endfor %}
+        {{content | safe}}
+    </main>
 </body>
 
 </html>
