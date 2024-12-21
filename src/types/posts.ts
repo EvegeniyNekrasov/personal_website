@@ -1,7 +1,13 @@
+
 export type Post = {
     id: number,
-    title: string,
-    content: string
+    date: string,
+    description: string,
+    autor: string,
+    tag: string,
+    title: string
 }
 
-export type PostList = Post[];
+export type PostsObject = {
+    content: Post[];
+}

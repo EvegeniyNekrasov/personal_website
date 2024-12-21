@@ -1,0 +1,12 @@
+.aside-wrapper {
+    padding: var(--spacing-xl);
+    background: red;
+}
+
+.logo-container {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
